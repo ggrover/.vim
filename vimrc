@@ -1,11 +1,11 @@
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+call pathogen#infect()
 
+filetype plugin indent on
 set t_Co=256
 set number
 set ts=2 sts=2 sw=2 expandtab
 syntax on
-color Tomorrow-Night "Benokai Tomorrow-Night-Bright
+colorscheme Benokai 
 
 if has("autocmd")
   filetype plugin indent on
